@@ -16,12 +16,14 @@ mongoose.connect(process.env.DB_CONNECTION,{ useNewUrlParser: true })
 
 //import routes
 const authRoute = require('./routes/auth');
+const postRoute = require('./routes/posts');
 
 //Middlewares
 app.use(express.json());
 
 //Router middlewares
 app.use('/api/user', authRoute);
+app.use('/api/posts', postRoute); 
 
 app.listen(3000, () => {
     console.log('Server is up and running');
