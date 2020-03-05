@@ -1,0 +1,28 @@
+{
+  "name": "auth_node_js",
+  "version": "1.0.0",
+  "description": "Build a Node.Js API Authentication with JWT tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kengneruphine/auth_node_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kengneruphine/auth_node_js/issues"
+  },
+  "homepage": "https://github.com/kengneruphine/auth_node_js#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2"
+  }
+}
